@@ -1,0 +1,201 @@
+/* ==========================================
+   LANDING PAGE
+========================================== */
+
+#landingPage{
+
+    text-align:center;
+
+}
+
+
+/* ==========================================
+   CONTAINER
+========================================== */
+
+.landing-container{
+
+    max-width:680px;
+
+}
+
+
+/* ==========================================
+   LOGO
+========================================== */
+
+.logo{
+
+    width:120px;
+
+    margin:0 auto 40px;
+
+    user-select:none;
+
+    pointer-events:none;
+
+}
+
+
+/* ==========================================
+   TITLE
+========================================== */
+
+#landingTitle{
+
+    margin-bottom:28px;
+
+    font-size:48px;
+
+    font-weight:700;
+
+    line-height:1.35;
+
+    color:#1d1d1d;
+
+}
+
+
+/* ==========================================
+   DESCRIPTION
+========================================== */
+
+#landingDescription{
+
+    max-width:540px;
+
+    margin:0 auto 50px;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    color:#666;
+
+}
+
+
+/* ==========================================
+   START BUTTON
+========================================== */
+
+#startButton{
+
+    width:260px;
+
+    height:62px;
+
+    border-radius:999px;
+
+    background:#1d1d1d;
+
+    color:#fff;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:.25s;
+
+}
+
+
+#startButton:hover{
+
+    background:#000;
+
+    transform:translateY(-3px);
+
+}
+
+
+#startButton:active{
+
+    transform:scale(.98);
+
+}
+
+
+/* ==========================================
+   DECORATION (OPTIONAL)
+========================================== */
+
+.landing-container::before{
+
+    content:"";
+
+    display:block;
+
+    width:70px;
+
+    height:2px;
+
+    margin:0 auto 45px;
+
+    background:#d9d9d9;
+
+}
+
+
+.landing-container::after{
+
+    content:"";
+
+    display:block;
+
+    width:70px;
+
+    height:2px;
+
+    margin:45px auto 0;
+
+    background:#d9d9d9;
+
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:768px){
+
+    .landing-container{
+
+        max-width:100%;
+
+    }
+
+    .logo{
+
+        width:90px;
+
+        margin-bottom:30px;
+
+    }
+
+    #landingTitle{
+
+        font-size:34px;
+
+    }
+
+    #landingDescription{
+
+        font-size:16px;
+
+        margin-bottom:40px;
+
+    }
+
+    #startButton{
+
+        width:220px;
+
+        height:56px;
+
+        font-size:17px;
+
+    }
+
+}
